@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Stalinist+One');
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather+Sans');*/
+/*@import url('http://fonts.googleapis.com/css?family=Berkshire+Swash');*/
+
+body { 
+    /*background-color: #F2E043;*/
+    /*margin: 5;*/
+    /*padding: 5;*/
+    padding-bottom:50px;
+    
+    background-size: cover;
+    
+}
+ /* The navigation bar*/
+/*.img{*/
+/*    background-image: url("../abc.jpg");*/
+
+header {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
+    padding: 15px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    position: fixed;
+    width: 100% ;
+    margin:0;
+    z-index: 1;
+    /*text-align: right;*/
+}
+
+.logo > img {
+    height: 75px;
+    width: 75px;
+}
+    
+
+    /* Set the navbar to fixed position
+    top: 0; Position the navbar at the top of the page*/
+ 
+    
+.img{
+    background-image: url('../images/abc.jpg');
+    background-size: cover;
+    height: 1000px;
+    width:100%;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+    font-size: 20px;
+   
+}
+.nav a 
+{
+    text-decoration: none;
+    padding: 35px;
+    color: #0b3954;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.nav li{list-style-type: none;}
+
+.nav > li > a:hover {
+    color: #C1C1C1;
+    
+}
+
+header a{
+       text-decoration: none;
+       font-family: 'Poiret One', cursive;
+       color: #0b3954;
+       /*padding-left: 2px;*/
+    
+}
+.text{
+    align-items: center;
+}
+.logo h2{
+/*font-family: 'Stalinist One', cursive;
+*/
+  
+}
+    
+.skiing{
+    position: relative;
+    top:200px;
+    margin-bottom:50px;
+}    
+    
+section{
+    width:50%;
+    margin:auto;
+}
+
+section img{
+    width:100%;
+}
+/*.footer {*/
+/*    background-color: #291528;*/
+/*    font-family: 'Poiret One',;
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    padding: 10px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*}*/
+
+/*footer div {*/
+/*  margin: 20px;*/
+/*  color: #f5fbef;*/
+/*  padding: 25px;*/
+/*  align-content:flex-end;*/
+/*}       */
+
+
+/*colors */
+/*color: #F5FBEF; off white*/
+/*color: #0b3954; Blue*/
+/*color: #5f5449; dark grey*/
+/*color: #76B041; Green */
+/*color: #F2E043; yellow*/
